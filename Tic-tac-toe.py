@@ -1,3 +1,14 @@
+# logic:
+    # board
+    # display board
+    # play game
+
+    # check win
+        # check rows
+        # check columns
+        # check diagonals
+    # check tie
+    # flip player
 # Game Board
 board  = ['-', '-', '-',
           '-', '-', '-',
@@ -138,14 +149,3 @@ def flip_player():
     return
 
 play_game()
-# logic:
-    # board
-    # display board
-    # play game
-
-    # check win
-        # check rows
-        # check columns
-        # check diagonals
-    # check tie
-    # flip player
